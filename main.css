@@ -19,7 +19,7 @@ div#header {
 div#header a {
     display:inline-block;
     transition:250ms;
-    width:auto;
+    width:calc(100% / 1);
     height:50px;
 }
 div#header a:hover {
