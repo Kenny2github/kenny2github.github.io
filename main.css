@@ -23,6 +23,7 @@ div#header a {
     height:50px;
     text-align:center;
     vertical-align:middle;
+    text-decoration:none;
 }
 div#header a:hover {
     background-color:#0000ff;
