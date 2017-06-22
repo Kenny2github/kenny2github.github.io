@@ -38,6 +38,8 @@ sup.note div{
     border:2px solid white;
     background-color:#111;
     position:relative;
+    bottom:-1em;
+    left:0;
 }
 sup.note:hover div {
     display:block;
