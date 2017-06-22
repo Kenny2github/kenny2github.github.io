@@ -23,3 +23,8 @@ div#header ul li:hover {
     background-color:#0000ff;
     cursor:pointer;
 }
+a {
+    color:inherit;
+    text-decoration:inherit;
+    background-color:inherit;
+}
