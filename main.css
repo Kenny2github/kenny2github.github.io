@@ -42,6 +42,6 @@ sup.note div{
     left:0;
 }
 sup.note:hover div {
-    display:block;
+    display:inherit;
     z-index:100;
 }
