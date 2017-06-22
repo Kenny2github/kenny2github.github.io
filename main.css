@@ -37,11 +37,10 @@ sup.note div{
     display:none;
     border:2px solid white;
     background-color:#111;
-    position:relative;
-    bottom:-1em;
-    left:0;
+    position:absolute;
+    width:auto;
 }
 sup.note:hover div {
-    display:inherit;
+    display:inline;
     z-index:100;
 }
