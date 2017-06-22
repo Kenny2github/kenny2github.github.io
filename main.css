@@ -30,17 +30,14 @@ div#header a:hover {
 }
 a {
     color:inherit;
-    text-decoration:inherit;
+    text-decoration:underline;
     background-color:inherit;
-}
-sup.note {
-    transition:250ms;
-    position:absolute;
 }
 sup.note div{
     display:none;
     border:2px solid white;
     background-color:#111;
+    position:absolute;
 }
 sup.note:hover div {
     display:block;
