@@ -34,11 +34,12 @@ a {
     background-color:inherit;
 }
 sup.note {
-    display:none;
+    content: "[note]";
     transition:250ms;
     position:absolute;
 }
 sup.note div{
+    display:none;
     border:2px solid white;
     background-color:#111;
 }
