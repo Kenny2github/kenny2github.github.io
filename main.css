@@ -19,7 +19,7 @@ div#header {
 div#header a {
     display:inline-block;
     transition:250ms;
-    padding:19px;
+    padding:0 0.5em 0 0.5em;
 }
 div#header a:hover {
     background-color:#0000ff;
