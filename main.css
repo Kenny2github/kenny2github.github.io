@@ -1,21 +1,21 @@
 * {
-    font-family:Courier New, monospace;
+	font-family:Courier New, monospace;
 }
 html {
-    background-color:black;
-    color:white;
-    margin:0;
-    padding:0;
-    margin-top:50px;
+	background-color:black;
+	color:white;
+	margin:0;
+	padding:0;
+	margin-top:50px;
 }
 a {
-    color:inherit;
-    text-decoration:underline;
-    background-color:inherit;
+	color:inherit;
+	text-decoration:underline;
+	background-color:inherit;
 }
 div#header {
-    position:fixed;
-    top:0;
+	position:fixed;
+	top:0;
     left:0;
     width:100%;
     background-color:#000080;
@@ -38,7 +38,7 @@ sup.note div{
     display:none;
     border:2px solid white;
     background-color:#111;
-    position:fixed;
+    position:absolute;
     width:auto;
 }
 sup.note:hover div {
