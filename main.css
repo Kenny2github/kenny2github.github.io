@@ -8,6 +8,11 @@ html {
     padding:0;
     margin-top:50px;
 }
+a {
+    color:inherit;
+    text-decoration:underline;
+    background-color:inherit;
+}
 div#header {
     position:fixed;
     top:0;
@@ -28,11 +33,6 @@ div#header a {
 div#header a:hover {
     background-color:#0000ff;
     cursor:pointer;
-}
-a {
-    color:inherit;
-    text-decoration:underline;
-    background-color:inherit;
 }
 sup.note div{
     display:none;
