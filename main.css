@@ -14,10 +14,12 @@ div#header {
     left:0;
     width:100%;
     background-color:#000080;
+    height:50px;
 }
 div#header a {
     display:inline-block;
     transition:250ms;
+    padding:19px;
 }
 div#header a:hover {
     background-color:#0000ff;
