@@ -34,7 +34,6 @@ a {
     background-color:inherit;
 }
 sup.note {
-    content: "[note]";
     transition:250ms;
     position:absolute;
 }
