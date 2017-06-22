@@ -1,0 +1,25 @@
+* {
+    font-family:Courier New, monospace;
+}
+html {
+    background-color:black;
+    color:white;
+    margin:0;
+    padding:0;
+    margin-top:50px;
+}
+div#header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:#000080;
+}
+div#header ul li a {
+    display:inline-block;
+    transition:250ms;
+}
+div#header ul li:hover {
+    background-color:#0000ff;
+    cursor:pointer;
+}
