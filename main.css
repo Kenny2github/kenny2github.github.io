@@ -22,7 +22,7 @@ div#header a {
     width:calc(100% / 1);
     height:50px;
     text-align:center;
-    vertical-align:center;
+    vertical-align:middle;
 }
 div#header a:hover {
     background-color:#0000ff;
