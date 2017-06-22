@@ -37,7 +37,7 @@ sup.note div{
     display:none;
     border:2px solid white;
     background-color:#111;
-    position:absolute;
+    position:relative;
 }
 sup.note:hover div {
     display:block;
