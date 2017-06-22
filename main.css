@@ -15,7 +15,7 @@ div#header {
     width:100%;
     background-color:#000080;
 }
-div#header ul li a {
+div#header ul li {
     display:inline-block;
     transition:250ms;
 }
