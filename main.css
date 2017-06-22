@@ -33,3 +33,16 @@ a {
     text-decoration:inherit;
     background-color:inherit;
 }
+sup.note {
+    display:none;
+    transition:250ms;
+    position:absolute;
+}
+sup.note div{
+    border:2px solid white;
+    background-color:#111;
+}
+sup.note:hover div {
+    display:block;
+    z-index:100;
+}
