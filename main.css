@@ -21,6 +21,8 @@ div#header a {
     transition:250ms;
     width:calc(100% / 1);
     height:50px;
+    text-align:center;
+    vertical-align:center;
 }
 div#header a:hover {
     background-color:#0000ff;
