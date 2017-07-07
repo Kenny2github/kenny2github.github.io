@@ -7,6 +7,7 @@ html {
 	margin:0;
 	padding:0;
 	margin-top:50px;
+	font-size:12px;
 }
 a {
 	color:inherit;
@@ -21,17 +22,16 @@ div#header {
 	background-color:#000080;
 	height:50px;
 	text-align:center;
-	padding-top:1.25em;
 }
 div#header a {
 	display:inline-block;
 	transition:250ms;
-	height:inherit;
+	height:auto;
 	width:auto;
 	text-align:center;
 	vertical-align:middle;
 	text-decoration:none;
-	padding:1.25em 1.25em 0 1.25em;
+	padding:17px 1em 17px 1em;
 }
 div#header a:hover {
 	background-color:#0000ff;
