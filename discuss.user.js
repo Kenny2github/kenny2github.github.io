@@ -6,4 +6,4 @@
 
 link = document.createElement('li');
 link.innerHTML = '<a href="/discuss">Discuss</a>'
-document.querySelector('div.container ul.site-nav').insertBefore(link, document.querySelector('div.container ul.site-nav li.last'))
+document.querySelector('div.container ul.site-nav').insertBefore(link, document.querySelector('div.container ul.site-nav').getElementsByTagName('li')[3])
