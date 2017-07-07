@@ -30,6 +30,7 @@ div#header a {
     text-align:center;
     vertical-align:middle;
     text-decoration:none;
+	padding:1.25em;
 }
 div#header a:hover {
     background-color:#0000ff;
