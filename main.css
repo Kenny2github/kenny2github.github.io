@@ -21,6 +21,7 @@ div#header {
 	background-color:#000080;
 	height:50px;
 	text-align:center;
+	padding-top:1.25em;
 }
 div#header a {
 	display:inline-block;
