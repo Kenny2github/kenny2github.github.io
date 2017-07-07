@@ -16,34 +16,34 @@ a {
 div#header {
 	position:fixed;
 	top:0;
-    left:0;
-    width:100%;
-    background-color:#000080;
-    height:50px;
+	left:0;
+	width:100%;
+	background-color:#000080;
+	height:50px;
 	text-align:center;
 }
 div#header a {
-    display:inline-block;
-    transition:250ms;
-    height:50px;
+	display:inline-block;
+	transition:250ms;
+	height:50px;
 	width:auto;
-    text-align:center;
-    vertical-align:middle;
-    text-decoration:none;
-	padding:0 1.25em 0 1.25em;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+	padding:1.25em 1.25em 0 1.25em;
 }
 div#header a:hover {
-    background-color:#0000ff;
-    cursor:pointer;
+	background-color:#0000ff;
+	cursor:pointer;
 }
 sup.note div{
-    display:none;
-    border:2px solid white;
-    background-color:#111;
-    position:absolute;
-    width:auto;
+	display:none;
+	border:2px solid white;
+	background-color:#111;
+	position:absolute;
+	width:auto;
 }
 sup.note:hover div {
-    display:inline;
-    z-index:100;
+	display:inline;
+	z-index:100;
 }
