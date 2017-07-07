@@ -25,7 +25,7 @@ div#header {
 div#header a {
 	display:inline-block;
 	transition:250ms;
-	height:50px;
+	height:inherit;
 	width:auto;
 	text-align:center;
 	vertical-align:middle;
