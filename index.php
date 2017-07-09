@@ -1,4 +1,5 @@
-<?php echo '<!doctype html>
+<?php echo <<<XML
+<!doctype html>
 <html>
 <head>
     <title>Kenny2github</title>
@@ -86,4 +87,4 @@
 	<script src="end.js"></script>
 </body>
 </html>
-'; ?>
+XML; ?>
