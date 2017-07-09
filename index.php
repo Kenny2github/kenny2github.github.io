@@ -6,7 +6,7 @@
 	<script src="start.js"></script>
 </head>
 <body>
-    <div id="header"><a href="#Me">Me in a nutshell</a><a href="#Random">Random stuff about me</a><a href="#Contact">Contact Info</a><a href="#Do">What I do</a><a href="#Done">What I've done</a><a href="#Programming">Me programming-wise</a><a href="#Quotes">Favorite Quotes</a></div>
+	<div id="header"><a href="#Me">Me in a nutshell</a><a href="#Random">Random stuff about me</a><a href="#Contact">Contact Info</a><a href="#Do">What I do</a><a href="#Done">What I've done</a><a href="#Programming">Me programming-wise</a><a href="#Quotes">Favorite Quotes</a></div>
 	<h1 id="Me">Me in a nutshell</h1>
 	<p>I am a monster who hides in a cave who recently decided to try to see what Github was like. In Github, I (so far) have reported quite a few issues, and thats... basically... it.</p>
 	<p>I'm an American citizen born and raised in Hong Kong. I live in Hong Kong and it's a lot of fun without guns or sales tax</p>
