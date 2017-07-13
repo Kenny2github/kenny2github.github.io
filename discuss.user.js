@@ -5,5 +5,5 @@
 // ==/UserScript==
 
 link = document.createElement('li');
-link.innerHTML = '<a href="/discuss">Discuss</a>'
-document.querySelector('div#navigation div ul').insertBefore(link, document.querySelector('div#navigation div ul').getElementsByTagName('li')[2])
+link.innerHTML = '<a href="/discuss">Discuss</a>';
+document.querySelector('div#navigation div ul').insertBefore(link, document.querySelector('div#navigation div ul').getElementsByTagName('li')[2]);
