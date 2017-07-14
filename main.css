@@ -7,7 +7,7 @@ html {
 	margin:0;
 	padding:0;
 	margin-top:50px;
-	font-size:12px;
+	font-size:18px;
 }
 a {
 	color:inherit;
@@ -28,10 +28,11 @@ div#header a {
 	transition:250ms;
 	height:auto;
 	width:auto;
+	font-size:18px;
 	text-align:center;
 	vertical-align:middle;
 	text-decoration:none;
-	padding:18px 1em 18px 1em;
+	padding:15px 1em 15px 1em;
 }
 div#header a:hover {
 	background-color:#0000ff;
