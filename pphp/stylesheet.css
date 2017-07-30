@@ -10,6 +10,8 @@ pre.code {
 	background-color:lightGray;
 	color:black;
 	font-family:monospace;
+	border:gray;
+	padding:1em;
 }
 h1#first-heading {
 	margin-top:50px;
