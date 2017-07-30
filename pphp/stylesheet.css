@@ -49,3 +49,7 @@ div#header a:hover {
 	background-color:#d00;
 	cursor:pointer;
 }
+div#header a.active {
+	font-weight:bold;
+	background-color:#e02;
+}
