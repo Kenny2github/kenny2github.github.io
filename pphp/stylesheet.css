@@ -51,3 +51,8 @@ div#header a:hover {
 	background-color:#d00;
 	cursor:pointer;
 }
+b {
+	font-weight:bold;
+	background-color:inherit;
+	color:inherit;
+}
