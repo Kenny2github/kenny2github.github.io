@@ -1,19 +1,17 @@
 import re, lxml.html as lx, sys
 from cStringIO import StringIO
-def do(html, _GET={}, _POST={}):
+def do(html, _GET={}, _POST={}, **_EXTRAS):
     __scripts__ = re.findall(r'<\?pphp.*?\?>', html, re.DOTALL) #get all the scripts
-    __outputs__ = range(0,len(__scripts__)) #generate dummy array for replacement purposes
-    __dom__ = lx.fromstring(re.sub(r'<\?pphp.*?\?>', '<py></py>', html, flags=re.DOTALL)) #replace all <?pyhp?>s with an empty <py> tag for now
+    __outputs__ = [] #outputs
     for __script__ in __scripts__:
-        __pre__ = sys.stdout
+        __pre__ = sys.stdout #backup of sys.stdout so that we can restore it later
         sys.stdout = StringIO()
         echo = sys.stdout.write
         exec __script__[7:-2] #execute code (without the tag)
-        html = lx.tostring(dom) #update DOM
         __output__ = sys.stdout.getvalue()
         sys.stdout.close()
         sys.stdout = __pre__
-        __outputs__[__scripts__.index(__script__)] = __output__ #store the output
+        __outputs__.append(__output__) #store the output
     for out in __outputs__:
-        html = re.sub('<py></py>', out, html, count=1, flags=re.DOTALL) #replace each <py> tag with a script output
+        html = re.sub(r'<\?pphp.*?\?>', str(out), html, count=1, flags=re.DOTALL) #replace each script with its output
     return html
