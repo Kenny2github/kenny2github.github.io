@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>PPHP installation</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="../stylesheet.css" />
+    </head>
+    <body>
+        <h1>Installation</h1>
+        <p>Assuming you have pip (if you don't, tsk tsk!), type the following into your operating system's terminal:</p>
+        <pre>pip install pphp</pre>
+        <p>This will install PPHP and all of its non-existant dependencies.</p>
+        <br/>
+        <h2>Installation without pip</h2>
+        <ol>
+            <li><a href="https://pypi.python.org/packages/f6/1e/f52e0305f439908a23830c7ec73119673452b0159e6487c3c8e2d0b63915/pphp-0.1.1.tar.gz#md5=fedc745cffad12b0280496616ae69580">Download</a> the package from PyPI</li>
+            <li>Unzip it</li>
+            <li>In a terminal, cd into the directory that you unzipped it to</li>
+            <li>In the terminal, type <code>python setup.py install</code></li>
+        </ol>
+        <h1>Implementation<h1>
+        <p>This section assumes you are using BaseHTTPServer. You will have to adapt it if you are using anything else.</p>
+        <ol>
+            <li>At the top of your file, add <code>from pphp import do</code>.</li>
+            <li>In your do_* functions, at the end, use <code>self.wfile.write(do(html, GET_DATA, POST_DATA, **kwargs))</code>, where <code>html</code> is the contents of your file, <code>GET_DATA</code> is a dictionary containing the GET parameters, (if applicable) <code>POST_DATA</code> is a dictionary containing the POST data, and <code>**kwargs</code> is any further arguments your file will require to execute.</li>
+        </ol>
+        <h1>Usage</h1>
+        <p>Inside your file, to execute Python code, use:</p>
+        <pre><?pphp
+(python code)
+?></pre>
+        <p>Some special keywords:</p>
+        <ul>
+            <li><code>echo(s)</code> - this is equivalent to <code>sys.stdout.write(s)</code>, used if you need to output something without a trailing newline.</li>
+            <li><code>_GET</code> - this is the dictionary of GET parameters that you passed to <code>do</code> in implementation.</li>
+            <li><code>_POST</code> - this is the dictionary of POST data that you passed to <code>do</code> in implementation.</li>
+            <li><code>_EXTRAS</code> - this is a dictionary of **kwargs that you passed to <code>do</code> in implementation.</li>
+            <li><code>__script__</code> - this is a string containing the text of the currently running script.</li>
+        </ul>
+    </body>
+</html>
