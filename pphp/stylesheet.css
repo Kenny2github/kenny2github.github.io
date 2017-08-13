@@ -13,6 +13,12 @@ pre.code {
 	border:gray;
 	padding:1em;
 }
+code {
+	background-color:lightGray;
+	color:black;
+	font-family:monospace;
+	border:gray;
+}
 h1#first-heading {
 	margin-top:50px;
 }
