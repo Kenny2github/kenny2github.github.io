@@ -19,9 +19,7 @@ code {
 	font-family:monospace;
 	border:gray;
 }
-h1#first-heading {
-	margin-top:50px;
-}
+h1#first-heading {}
 h1 {
 	font-size:160%;
 }
