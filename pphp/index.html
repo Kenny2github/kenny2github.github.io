@@ -10,7 +10,7 @@
 		<div id="releases">
 			<h2>PPHP 3.0.0</h2>
 			<p>Changes in this release:</p>
-			<pre class="code">+The database is now stored in a single file (~/.pphp/__DATABASE__.json or %appdata%/.pphp/__DATABASE__.json), with each server's database being stored under one database key.
+			<pre class="code" style="word-wrap:normal">+The database is now stored in a single file (~/.pphp/__DATABASE__.json or %appdata%/.pphp/__DATABASE__.json), with each server's database being stored under one database key.
  +This means that when you first run your server, you will be prompted for a database key to store this server's data under. If the root is changed, you will be prompted again - but you can easily specify the same db key to continue using the data stored there.
  +To store the db key, a hidden file (.pphp-config) will be created directly under the root directory. This file simply contains the database key.
 *The "do" function now requires two arguments (but no more): html and server. "html" should be the content of the page; "server" should be the server instance.
