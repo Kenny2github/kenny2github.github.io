@@ -62,3 +62,10 @@ b {
 	background-color:inherit;
 	color:inherit;
 }
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+ul {
+	list-style-type: disc;
+}
