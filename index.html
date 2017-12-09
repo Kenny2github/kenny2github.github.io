@@ -20,6 +20,21 @@ div.nice > img {
 	margin-left: auto;
 	margin-right: auto;
 }
+@keyframes hi {
+	0% { transform: translate(1px, 2px), rotate(0deg) }
+	20% { transform: translate(-1px, -1px), rotate(5deg) }
+	40% { transform: translate(2px, -2px), rotate(-3deg) }
+	60% { transform: translate(0px, 1px), rotate(3deg) }
+	80% { transform: translate(-2px, 0px), rotate(-5deg) }
+	100% { transform: translate(1px, 2px), rotate(0deg) }
+}
+div#hi {
+	animation-name: hi;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	float: right;
+}
 	</style>
 </head>
 <body>
@@ -35,6 +50,7 @@ div.nice > img {
 		<p><a href="https://wiki.scratch.mit.edu/wiki/User:TemplatesFTW">TemplatesFTW</a></p>
 		<p><a href="/pphp">PPHP</a></p>
 		<p><a href="https://github.com/Kenny2github/xmlx">XMLX</a></p>
+		<p><a href="https://github.com/Kenny2github/mw-api-client">mw-api-client</a></p>
 	</div>
 	<h2>My various personas</h2>
 	<div class="nice">
@@ -48,5 +64,9 @@ div.nice > img {
 		<p>I'm an American from Hong Kong.</p>
 		<p>I'm colorblind - I have strong deutaneropia.</p>
 	</div>
+	<div id="hi">
+		<b>asdf</b>
+	</div>
+	<p>By the way, check out <a href="https://www.makethebrainhappy.com">MakeTheBrainHappy's site</a> - it's not half bad.</p>
 </body>
 </html>
