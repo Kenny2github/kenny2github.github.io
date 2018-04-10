@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kenny2crypto
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kenny2github.github.io
+  * I am kenny2crypto (https://keybase.io/kenny2crypto) on keybase.
+  * I have a public key ASDRIj2dRLcwS8mLIko3qmXU8dCKZvm-_r3OTh5xWUcyYAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cc15dfd41020a757116b217434c2bae0b14664276f095aa63160db723fa4ab8b0a",
+      "host": "keybase.io",
+      "kid": "0120d1223d9d44b7304bc98b224a37aa65d4f1d08a66f9befebdce4e1e71594732600a",
+      "uid": "94d9abe2f7576b643d4fc3e846bd4719",
+      "username": "kenny2crypto"
+    },
+    "merkle_root": {
+      "ctime": 1523363839,
+      "hash": "7eb89ae49f78adddf8a382f2e7a52d117f0c9c079890a270bc745b7e6129ac62641b1bdef690ccb15f5130e888ea8efe4b8edba48300cdf90dc58ab645f3cad1",
+      "hash_meta": "79a862519b9c4e3adced071752225afc136166fbc3f372ed4ade902a61e389ca",
+      "seqno": 2364180
+    },
+    "service": {
+      "entropy": "qCnYrCsRFdbT+Na+q45wJwUw",
+      "hostname": "kenny2github.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1523363890,
+  "expire_in": 504576000,
+  "prev": "12dc7fbff5e9afc5697a2f7c4433fdd4657455690eadfe542e7883cb20e8e00d",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0SI9nUS3MEvJiyJKN6pl1PHQimb5vv69zk4ecVlHMmAKp3BheWxvYWTESpcCFcQgEtx/v/Xpr8Vpei98RDP91GV0VWkOrf5ULniDyyDo4A3EICr4iD3dz5Y9HBRvVfUWnjweWZF93xIEWeeCMYZ/9mQhAgHCo3NpZ8RA8V7Xy6lYl0x6MAbB1TnivhxgwQ6hddPzoJFoGeGw4E4lR/2iwLka7Jlye2JVyg/28YvsaGX6/8sbTn3NfbiyDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBdf5QViS+rCA1DGed5/PXDprvmc++Yv8hzRC1caiLWlo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kenny2crypto
+
+==================================================================
