@@ -1,0 +1,205 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<style>
+        #bottom_key{
+	width: 920px;
+	height: 20px;
+	border-style: solid;
+	border-width: 2px;
+	position: absolute;
+	left: 10px;
+	top: 530px;
+	border-radius: 5px;
+	}
+    #key{
+	width: 920px;
+	height: 80px;
+	border-style: solid;
+	border-width: 2px;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	border-radius: 5px;
+	}
+#reactant{
+	width: 450px;
+	height: 420px;
+	border-style: solid;
+	border-width: 2px;
+	position: absolute;
+	left: 10px;
+	top: 100px;
+	border-radius: 5px;
+	}
+#product{
+	width: 450px;
+	height: 420px;
+	border-style: solid;
+	border-width: 2px;
+	position: absolute;
+	left: 480px;
+	top: 100px;
+	border-radius: 5px;
+        margin-left: 0px;
+    }	
+
+
+ 
+.mg{        width: 40px;
+                        position:absolute;
+                  
+                 
+    }
+ 
+.mg_img {
+                width: 40px;
+                height: 40px;
+                position:absolute;
+               
+}
+
+.o{        width: 40px;
+                        position:absolute;
+                  
+                 
+    }
+ 
+.o_img {
+                width: 40px;
+                height: 40px;
+                position:absolute;
+               
+}
+
+ 
+ 
+ 
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="http://www.geocities.jp/kkyu0316steven/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript">
+ 
+ 
+$( init );
+function init() {
+    $('.mg').draggable();
+
+   
+    $("#mg1").css({ "left": "150px", "top": "450px" });
+    $("#mg2").css({ "left": "185px", "top": "450px" });
+    $("#mg3").css({ "left": "220px", "top": "450px" });
+    $("#mg4").css({ "left": "255px", "top": "450px" });
+    $("#mg5").css({ "left": "150px", "top": "415px" });
+    $("#mg6").css({ "left": "185px", "top": "415px" });
+    $("#mg7").css({ "left": "220px", "top": "415px" });
+    $("#mg8").css({ "left": "255px", "top": "415px" });
+    
+    $('.o').draggable();
+    $("#o1").css({ "left": "20px", "top": "300px" });
+    $("#o2").css({ "left": "50px", "top": "285px" });
+    $("#o3").css({ "left": "220px", "top": "155px" });
+    $("#o4").css({ "left": "220px", "top": "119px" });
+    $("#o5").css({ "left": "354px", "top": "339px" });
+    $("#o6").css({ "left": "328px", "top": "315px" });
+    $("#o7").css({ "left": "417px", "top": "109px" });
+    $("#o8").css({ "left": "388px", "top": "131px" });
+
+
+
+}
+
+
+
+</script>
+ 
+ 
+</head>
+<body>
+<div id="reactant">
+<h1 style="text-align:center;">&nbsp;</h1>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <h1 style="text-align:center;">Reactant</h1>
+</div>
+<div id="product">
+    <h1 style="text-align:center;">&nbsp;</h1>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <p style="text-align:center;">&nbsp;</p>
+    <h1 style="text-align:center;">Product</h1></div>
+<div id="key">
+    <h1 style="text-align:center;"> Drag the particles (blue: Mg ; white: O) to the product :)</h1>
+</div>
+ <div id="bottom_key">
+    
+     Created by Steven Yu</div>
+ <div class="mg">
+<img class="mg_img" src="http://www.geocities.jp/kkyu0316steven/particle_v2.png" id="mg1">
+</div>
+<div class="mg">
+<img class="mg_img" src="http://www.geocities.jp/kkyu0316steven/particle_v2.png" id="mg2">
+</div>
+<div class="mg">
+<img class="mg_img" src="http://www.geocities.jp/kkyu0316steven/particle_v2.png" id="mg3">
+</div>
+<div class="mg">
+<img class="mg_img" src="http://www.geocities.jp/kkyu0316steven/particle_v2.png" id="mg4">
+</div>
+<div class="mg">
+<img class="mg_img" src="http://www.geocities.jp/kkyu0316steven/particle_v2.png" id="mg5">
+</div>
+<div class="mg">
+<img class="mg_img" src="http://www.geocities.jp/kkyu0316steven/particle_v2.png" id="mg6">
+</div>
+<div class="mg">
+<img class="mg_img" src="http://www.geocities.jp/kkyu0316steven/particle_v2.png" id="mg7">
+</div>
+<div class="mg">
+<img class="mg_img" src="http://www.geocities.jp/kkyu0316steven/particle_v2.png" id="mg8">
+</div>
+
+<div class="o">
+<img class="o_img" src="http://www.geocities.jp/kkyu0316steven/particle_v1.png" id="o1">
+</div>
+ <div class="o">
+<img class="o_img" src="http://www.geocities.jp/kkyu0316steven/particle_v1.png" id="o2">
+</div>
+    <div class="o">
+<img class="o_img" src="http://www.geocities.jp/kkyu0316steven/particle_v1.png" id="o3">
+</div>
+    <div class="o">
+<img class="o_img" src="http://www.geocities.jp/kkyu0316steven/particle_v1.png" id="o4">
+</div>
+    <div class="o">
+<img class="o_img" src="http://www.geocities.jp/kkyu0316steven/particle_v1.png" id="o5">
+</div>
+    <div class="o">
+<img class="o_img" src="http://www.geocities.jp/kkyu0316steven/particle_v1.png" id="o6">
+</div>
+    <div class="o">
+<img class="o_img" src="http://www.geocities.jp/kkyu0316steven/particle_v1.png" id="o7">
+</div>
+    <div class="o">
+<img class="o_img" src="http://www.geocities.jp/kkyu0316steven/particle_v1.png" id="o8">
+</div>
+</div>
+
+</body>
+</html>
